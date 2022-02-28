@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e49451d6-73ad-44c9-b8fc-71eb16fa29a8": {
+      "ProjectGuid": "e49451d6-73ad-44c9-b8fc-71eb16fa29a8",
+      "DisplayName": "AboutMusicInventoryManagerMVC",
+      "ColorIndex": 0
+    },
+    "b42774c4-d1b7-4d40-b509-77fd6c19deaf": {
+      "ProjectGuid": "b42774c4-d1b7-4d40-b509-77fd6c19deaf",
+      "DisplayName": "AboutMusicModels",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "772dd2d7-f272-4f3f-86d7-b920a6c7fb7a": {
+      "ProjectGuid": "772dd2d7-f272-4f3f-86d7-b920a6c7fb7a",
+      "DisplayName": "AboutMusicInvMgrModels",
+      "ColorIndex": 2
+    },
+    "f2afa0a9-160e-43a5-a25b-6aa6b79f930d": {
+      "ProjectGuid": "f2afa0a9-160e-43a5-a25b-6aa6b79f930d",
+      "DisplayName": "AboutMusicInvMgrServices",
+      "ColorIndex": 3
+    },
+    "70856dcb-723a-47c4-9ce9-6ca2b4500310": {
+      "ProjectGuid": "70856dcb-723a-47c4-9ce9-6ca2b4500310",
+      "DisplayName": "AboutMusicInvMgrData",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
