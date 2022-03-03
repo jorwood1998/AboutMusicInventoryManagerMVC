@@ -1,82 +1,155 @@
-﻿using AboutMusicInvMgr.Models.Product;
-using AboutMusicInvMgrServices;
-using Microsoft.AspNet.Identity;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.Entity;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using System.Web.Http;
+using System.Web;
+using System.Web.Mvc;
+using InventoryManagementSystem.DAL;
+using System.Data.Entity.Infrastructure;
+using AboutMusicInvMgrModels.Models;
 
-namespace AboutMusicInventoryManagerMVC.Controllers
+namespace InventoryManagementSystem.Controllers
 {
-    public class ProductController : ApiController
+    public class ProductController : Controller
     {
-        //Post(Create)
+        private StoreContext db = new StoreContext();
 
-        private ProductServices CreateProductService()
+        // GET: Product
+        public ActionResult Index()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var ProductService = new ProductServices(userId);
-            return ProductService;
-
-
+            var products = db.Products.Include(c => c.ProductId);
+            return View(db.Products.ToList());
         }
 
+        // GET: Product/Details/5
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = db.Products.Find(id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            return View(product);
+        }
+
+        public ActionResult Create()
+        {
+            PopulateDepartmentsDropDownList();
+            return View();
+        }
 
         [HttpPost]
-        public IHttpActionResult Post(ProductCreate product)
+        [ValidateAntiForgeryToken]
+        public ActionResult Create([Bind(Include = "ProductID,Title,Price,SectionID,InventoryNumber")]Product product)
         {
-
-            if (!ModelState.IsValid) { return BadRequest(ModelState); }
-            var service = CreateProductService();
-            if (!service.CreateProduct(product)) { return InternalServerError(); }
-            return Ok($"New product '{product.ProductId}' created!");
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    db.Products.Add(product);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (RetryLimitExceededException /* dex */)
+            {
+                //Log the error (uncomment dex variable name and add a line here to write a log.)
+                ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+            }
+            PopulateDepartmentsDropDownList(product.ProductId);
+            return View(product);
         }
 
-
-        [HttpGet]
-        public IHttpActionResult Get()
+        public ActionResult Edit(int? id)
         {
-            ProductServices productService = CreateProductService();
-            var product = productService.GetProducts();
-            return Ok(product);
-
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = db.Products.Find(id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            PopulateDepartmentsDropDownList(product.ProductId);
+            return View(product);
         }
 
-        //Get By ID
-        public IHttpActionResult GetById(int id)
+        [HttpPost, ActionName("Edit")]
+        [ValidateAntiForgeryToken]
+        public ActionResult EditPost(int? id)
         {
-            ProductServices service = CreateProductService();
-            var product = service.GetProductById(id);
-            return Ok(product);
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            var productToUpdate = db.Products.Find(id);
+            if (TryUpdateModel(productToUpdate, "",
+               new string[] { "Title", "Price", "SectionID", "InventoryNumber" }))
+            {
+                try
+                {
+                    db.SaveChanges();
+
+                    return RedirectToAction("Index");
+                }
+                catch (RetryLimitExceededException /* dex */)
+                {
+                    //Log the error (uncomment dex variable name and add a line here to write a log.
+                    ModelState.AddModelError("", "Unable to save changes. Try again, and if the problem persists, see your system administrator.");
+                }
+            }
+            PopulateDepartmentsDropDownList(productToUpdate.ProductId);
+            return View(productToUpdate);
         }
 
-        //Put (update)
-        [HttpPut]
-        public IHttpActionResult Put(ProductEdit product)
-
+        private void PopulateDepartmentsDropDownList(object selectedDepartment = null)
         {
-
-            if (!ModelState.IsValid) return BadRequest(ModelState);
-
-            var service = CreateProductService();
-
-            if (!service.UpdateProducts(product)) return InternalServerError();
-
-            return Ok($" Item '{product.ProductId}' was updated");
-
+            var departmentsQuery = from d in db.Products
+                                   orderby d.ProductId
+                                   select d;
+            ViewBag.DepartmentID = new SelectList(departmentsQuery, "DepartmentID", "Name", selectedDepartment);
         }
 
-        //Delete (delete)
-
-        public IHttpActionResult Delete(int id)
+        // GET: Product/Delete/5
+        public ActionResult Delete(int? id)
         {
-            var service = CreateProductService();
-            if (!service.DeleteProduct(id)) return InternalServerError();
-            return Ok($"Successfully Deleted Product {id} ");
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Product product = db.Products.Find(id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            return View(product);
+        }
+
+        // POST: Product/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public ActionResult DeleteConfirmed(int id)
+        {
+            Product product = db.Products.Find(id);
+            db.Products.Remove(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 }

@@ -76,6 +76,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInven
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Net.Http.Formatting.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Helpers.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Http.dll
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Http.Owin.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Mvc.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Optimization.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Providers.dll
@@ -109,6 +110,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInven
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Net.Http.Formatting.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Helpers.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Http.xml
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Http.Owin.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Mvc.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Optimization.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInventoryManagerMVC\bin\System.Web.Providers.xml

@@ -1,4 +1,5 @@
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.csproj.AssemblyReference.cache
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.csproj.GenerateResource.cache
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.csproj.CoreCompileInputs.cache
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\bin\Debug\AboutMusicInvMgrData.dll.config
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\bin\Debug\AboutMusicInvMgrData.dll
@@ -27,3 +28,4 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.csproj.CopyComplete
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.pdb
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrData\obj\Debug\AboutMusicInvMgrData.Migrations.jake.resources

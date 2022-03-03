@@ -39,8 +39,8 @@ namespace AboutMusicInvMgrData
             }
 
             public DbSet<ProductData> Products { get; set; }
-            public DbSet<UserData> User { get; set; }
-            public DbSet<StoreData> Stores { get; set; }
+            public DbSet<CustomerData> Customer { get; set; }
+            public DbSet<EmployeeData> Employee { get; set; }
 
             protected override void OnModelCreating(DbModelBuilder modelBuilder)
             {

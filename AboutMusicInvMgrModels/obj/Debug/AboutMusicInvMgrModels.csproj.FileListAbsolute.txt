@@ -4,6 +4,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\EntityFramework.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.Owin.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.Owin.Security.Cookies.dll
@@ -14,6 +15,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\EntityFramework.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.Owin.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.Owin.Security.xml
@@ -25,5 +27,3 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\obj\Debug\AboutMusicInvMgrModels.csproj.CopyComplete
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\obj\Debug\AboutMusicInvMgrModels.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\obj\Debug\AboutMusicInvMgrModels.pdb
-C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrModels\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml

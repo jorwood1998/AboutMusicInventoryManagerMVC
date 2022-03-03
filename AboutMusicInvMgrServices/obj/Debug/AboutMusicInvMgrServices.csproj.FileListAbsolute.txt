@@ -9,6 +9,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Newtonsoft.Json.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\AboutMusicInvMgrData.pdb
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\AboutMusicInvMgrData.dll.config
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\AboutMusicInvMgrModels.pdb
@@ -17,6 +18,7 @@ C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMg
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\bin\Debug\Newtonsoft.Json.xml
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\obj\Debug\AboutMusicInvMgrServices.csproj.CopyComplete
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\obj\Debug\AboutMusicInvMgrServices.dll
 C:\Users\jorwo\source\repos\SD_119\AboutMusicInventoryManagerMVC\AboutMusicInvMgrServices\obj\Debug\AboutMusicInvMgrServices.pdb
